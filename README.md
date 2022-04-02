@@ -29,7 +29,7 @@ Projeto desenvolvido para validar a entrada de uma password.
   
 ## Acesso ao projeto
 
-Você pode acessar o código fonte do projeto inicial</a> ou <a href="https://github.com/Alunser/Autenticacao/archive/refs/heads/main.zip">baixá-lo</a>.
+Você pode <a href="https://github.com/Alunser/Autenticacao">acessar o código fonte do projeto inicial</a> ou <a href="https://github.com/Alunser/Autenticacao/archive/refs/heads/main.zip">baixá-lo</a>.
 
 ## Abrir e rodar o projeto
 
