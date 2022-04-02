@@ -21,8 +21,15 @@ Projeto desenvolvido para validar a entrada de uma password.
 
 - `Funcionalidade 1`: Realizar a validação de um password informado pelo usuário.
 
+<div align="center">
+
+![api](https://raw.githubusercontent.com/Alunser/Autenticacao/main/api.gif)
+
+  </div>
+  
 ## Acesso ao projeto
-Você pode <a href="https://github.com/Alunser/Autenticacao">acessar o código fonte do projeto inicial</a> ou <a href="https://github.com/Alunser/Autenticacao/archive/refs/heads/main.zip">baixá-lo</a>.
+
+Você pode acessar o código fonte do projeto inicial</a> ou <a href="https://github.com/Alunser/Autenticacao/archive/refs/heads/main.zip">baixá-lo</a>.
 
 ## Abrir e rodar o projeto
 
