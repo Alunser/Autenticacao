@@ -6,7 +6,7 @@
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-projeto)
 * [Aplicação](#aplicação)
-  * [Criterio de validação](#criterio-de-validação)
+  * [Critério de validação](#critério-de-validação)
   * [Funcionalidades](#funcionalidades)
   * [Demonstração da aplicação](#demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
@@ -21,7 +21,7 @@ Projeto desenvolvido para validar a entrada de uma password.
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 
 ## Aplicação
-### Criterio de validação
+### Critério de validação
 Uma senha é considerada válida quando a mesma atender as seguintes regras:
 
 - Nove ou mais caracteres.
