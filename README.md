@@ -5,11 +5,14 @@
 ## Índice 
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Status do Projeto](#status-do-projeto)
-* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+* [Aplicação](#aplicação)
+  * [Criterio de validação](#criterio-de-validação)
+  * [Funcionalidades](#funcionalidades)
+  * [Demonstração da aplicação](#demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 * [Técnicas e tecnologias utilizadas](#técnicas-e-tecnologias-utilizadas)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
+* [Autor](#autor)
 
 ## Descrição do projeto 
 Projeto desenvolvido para validar a entrada de uma password.
@@ -17,10 +20,37 @@ Projeto desenvolvido para validar a entrada de uma password.
 ## Status do Projeto
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 
-## Funcionalidades e demonstração da aplicação
+## Aplicação
+### Criterio de validação
+Uma senha é considerada válida quando a mesma atender as seguintes regras:
 
+- Nove ou mais caracteres.
+- Não possuir caracteres repetidos dentro do conjunto.
+- Ao menos 1 dígito.
+- Ao menos 1 letra minúscula.
+- Ao menos 1 letra maiúscula.
+- Ao menos 1 caractere especial.
+- Os caracteres especiais aceitos são: ! @ # $ % ^ & * ( ) - +
+
+Exemplo:  
+
+```c#
+IsValid("") // false  
+IsValid("aa") // false  
+IsValid("ab") // false  
+IsValid("AAAbbbCc") // false  
+IsValid("AbTp9!foo") // false  
+IsValid("AbTp9!foA") // false
+IsValid("AbTp9 fok") // false
+IsValid("AbTp9!fok") // true
+```
+
+> **_Nota:_**  Espaços em branco não são considerados como caracteres válidos.
+
+### Funcionalidades
 - `Funcionalidade 1`: Realizar a validação de um password informado pelo usuário.
 
+### Demonstração da aplicação
 <div align="center">
 
 ![api](https://raw.githubusercontent.com/Alunser/Autenticacao/main/api.gif)
@@ -45,12 +75,12 @@ Após baixar o projeto
 As técnicas e tecnologias utilizadas pra isso são:
 
 - `API RESTful`: interface de programação de aplicação para estabeler a comunicação. 
-- `Extension functions`: adicionar comportamentos em outras classes para reutilizá-los
-- `Notification Pattern`: capturar as mensagens das validações de domínio
-- `CQRS Pattern`: separar a responsabilidade de escrita e leitura dos dados
+- `Extension functions`: adicionar comportamentos em outras classes para reutilizá-los.
+- `Notification Pattern`: capturar as mensagens das validações de domínio.
+- `CQRS Pattern`: separar a responsabilidade de escrita e leitura dos dados.
 - `Clean Code`: filosofia de desenvolvimento que consiste em aplicar técnicas simples que facilitam a escrita e a leitura de um código.
 
-## Pessoas desenvolvedoras do projeto
+## Autor
 
 | [<img src="https://avatars.githubusercontent.com/u/10420762?v=4" width=115><br><sub>Al Unser Bueno de Albuquerque</sub>](https://github.com/alunser) | 
 | :---: |
